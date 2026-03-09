@@ -1,0 +1,1352 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Методичка: Сыворотки для роста ресниц</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --cream:    #FAF7F2;
+      --parchment:#F2EDE4;
+      --sand:     #E8DDD0;
+      --taupe:    #C4B5A5;
+      --brown:    #8B6E5A;
+      --espresso: #3D2B1F;
+      --ink:      #1C1613;
+      --rose:     #C17B6F;
+      --rose-lt:  #F0D9D5;
+      --sage:     #7A9E8E;
+      --sage-lt:  #D6EAE3;
+      --amber:    #C9883F;
+      --amber-lt: #FBF0E0;
+      --danger:   #A94040;
+      --danger-lt:#F5E0E0;
+      --safe:     #4A8A6E;
+      --safe-lt:  #DFF2EA;
+      --radius:   12px;
+      --radius-sm:8px;
+    }
+
+    html { font-size: 16px; }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background: var(--cream);
+      color: var(--ink);
+      line-height: 1.65;
+      font-weight: 400;
+    }
+
+    /* ── LAYOUT ── */
+    .page {
+      max-width: 480px;
+      margin: 0 auto;
+      padding: 0 0 60px;
+    }
+
+    /* ── COVER ── */
+    .cover {
+      background: var(--espresso);
+      color: #FAF7F2;
+      padding: 48px 28px 40px;
+      text-align: center;
+    }
+    .cover-label {
+      font-family: 'Inter', sans-serif;
+      font-size: 11px;
+      font-weight: 600;
+      letter-spacing: 0.22em;
+      text-transform: uppercase;
+      color: var(--taupe);
+      margin-bottom: 14px;
+    }
+    .cover-title {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 36px;
+      font-weight: 700;
+      line-height: 1.15;
+      margin-bottom: 10px;
+      color: #FAF7F2;
+    }
+    .cover-sub {
+      font-family: 'Inter', sans-serif;
+      font-size: 12px;
+      letter-spacing: 0.12em;
+      color: var(--taupe);
+      margin-bottom: 28px;
+    }
+    .cover-img {
+      width: 100%;
+      border-radius: 8px;
+      display: block;
+      object-fit: cover;
+      max-height: 240px;
+    }
+
+    /* ── SECTIONS ── */
+    .section {
+      padding: 32px 20px 0;
+    }
+
+    /* ── SECTION HEADINGS ── */
+    .section-num {
+      display: inline-block;
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 13px;
+      font-weight: 600;
+      letter-spacing: 0.18em;
+      color: var(--brown);
+      text-transform: uppercase;
+      margin-bottom: 6px;
+    }
+    h1, h2 {
+      font-family: 'Cormorant Garamond', serif;
+      font-weight: 700;
+      line-height: 1.2;
+      color: var(--espresso);
+    }
+    h2 {
+      font-size: 26px;
+      margin-bottom: 20px;
+    }
+    h3 {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 20px;
+      font-weight: 600;
+      color: var(--espresso);
+      margin: 28px 0 12px;
+      line-height: 1.25;
+    }
+    h4 {
+      font-family: 'Inter', sans-serif;
+      font-size: 13px;
+      font-weight: 600;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--brown);
+      margin: 22px 0 8px;
+    }
+
+    /* ── SUB-SECTION HEADS (2.1, 2.2 …) ── */
+    .sub-heading {
+      display: flex;
+      align-items: flex-start;
+      gap: 10px;
+      margin: 36px 0 16px;
+      padding: 0 20px;
+    }
+    .sub-heading-num {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 32px;
+      font-weight: 700;
+      color: var(--taupe);
+      line-height: 1;
+      min-width: 36px;
+    }
+    .sub-heading-text {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 20px;
+      font-weight: 700;
+      color: var(--espresso);
+      line-height: 1.25;
+      padding-top: 4px;
+    }
+    .badge {
+      display: inline-block;
+      font-family: 'Inter', sans-serif;
+      font-size: 10px;
+      font-weight: 700;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      padding: 3px 8px;
+      border-radius: 4px;
+      margin-left: 2px;
+      vertical-align: middle;
+    }
+    .badge-danger { background: var(--danger-lt); color: var(--danger); }
+    .badge-safe   { background: var(--safe-lt);   color: var(--safe);   }
+
+    /* ── BODY TEXT ── */
+    p {
+      font-size: 15px;
+      line-height: 1.7;
+      color: #2D2320;
+      margin-bottom: 14px;
+    }
+    p:last-child { margin-bottom: 0; }
+    strong { font-weight: 600; color: var(--espresso); }
+
+    /* ── IMAGES ── */
+    .img-full {
+      width: 100%;
+      display: block;
+      border-radius: var(--radius);
+      object-fit: cover;
+      margin: 20px 0;
+    }
+    .img-product {
+      display: block;
+      max-width: 160px;
+      width: 100%;
+      border-radius: var(--radius);
+      margin: 0 auto 20px;
+      object-fit: contain;
+    }
+    .img-pair {
+      display: flex;
+      gap: 12px;
+      margin: 20px 0;
+    }
+    .img-pair img {
+      width: 50%;
+      border-radius: var(--radius);
+      object-fit: cover;
+    }
+    .img-footer {
+      display: flex;
+      gap: 12px;
+      margin: 32px 20px 0;
+    }
+    .img-footer img {
+      width: 50%;
+      border-radius: var(--radius);
+      object-fit: cover;
+    }
+
+    /* ── CALL-OUT BOXES ── */
+    .box {
+      border-radius: var(--radius);
+      padding: 16px 18px;
+      margin: 16px 0;
+      font-size: 14px;
+      line-height: 1.6;
+    }
+    .box-warning {
+      background: var(--amber-lt);
+      border-left: 3px solid var(--amber);
+      color: #5C3D10;
+    }
+    .box-danger {
+      background: var(--danger-lt);
+      border-left: 3px solid var(--danger);
+      color: #5A1E1E;
+    }
+    .box-safe {
+      background: var(--safe-lt);
+      border-left: 3px solid var(--safe);
+      color: #1E4A35;
+    }
+    .box-info {
+      background: var(--parchment);
+      border-left: 3px solid var(--taupe);
+      color: #3D2B1F;
+    }
+    .box-tip {
+      background: #EEF2FB;
+      border-left: 3px solid #6A85C5;
+      color: #1E2F5A;
+    }
+    .box p { margin-bottom: 8px; }
+    .box p:last-child { margin-bottom: 0; }
+    .box strong { color: inherit; }
+
+    /* ── LISTS ── */
+    ul, ol {
+      padding-left: 20px;
+      margin: 10px 0 16px;
+    }
+    li {
+      font-size: 15px;
+      line-height: 1.65;
+      margin-bottom: 6px;
+      color: #2D2320;
+    }
+    li strong { color: var(--espresso); }
+
+    /* ── DIVIDER ── */
+    .divider {
+      border: none;
+      height: 1px;
+      background: var(--sand);
+      margin: 32px 20px;
+    }
+
+    /* ── TABLES ── */
+    .table-wrap {
+      overflow-x: auto;
+      -webkit-overflow-scrolling: touch;
+      margin: 16px 0;
+      border-radius: var(--radius);
+      border: 1px solid var(--sand);
+    }
+    table {
+      width: 100%;
+      min-width: 480px;
+      border-collapse: collapse;
+      font-size: 13px;
+      background: #fff;
+    }
+    thead tr {
+      background: var(--espresso);
+      color: #FAF7F2;
+    }
+    thead th {
+      padding: 12px 14px;
+      text-align: left;
+      font-weight: 600;
+      font-family: 'Inter', sans-serif;
+      font-size: 12px;
+      letter-spacing: 0.04em;
+      white-space: nowrap;
+    }
+    tbody tr:nth-child(even) { background: var(--parchment); }
+    tbody tr:hover { background: var(--rose-lt); transition: background 0.15s; }
+    tbody td {
+      padding: 11px 14px;
+      vertical-align: top;
+      line-height: 1.55;
+      border-bottom: 1px solid var(--sand);
+      color: #2D2320;
+    }
+    tbody td:first-child { font-weight: 500; }
+    .cell-danger { color: var(--danger); font-weight: 700; }
+    .cell-safe   { color: var(--safe);   font-weight: 700; }
+    .scroll-hint {
+      font-size: 11px;
+      color: var(--taupe);
+      text-align: right;
+      margin-bottom: 4px;
+      font-style: italic;
+    }
+
+    /* ── PRODUCT CARD ── */
+    .product-card {
+      background: #fff;
+      border-radius: var(--radius);
+      border: 1px solid var(--sand);
+      overflow: hidden;
+      margin: 0 20px;
+    }
+    .product-card-inner {
+      padding: 20px;
+    }
+    .product-card + .product-card {
+      margin-top: 20px;
+    }
+    .product-meta {
+      font-size: 13px;
+      color: var(--brown);
+      margin-bottom: 10px;
+      font-style: italic;
+    }
+    .ingredient-row {
+      display: flex;
+      gap: 8px;
+      align-items: baseline;
+      margin-bottom: 6px;
+      font-size: 14px;
+    }
+    .ingredient-label {
+      font-weight: 600;
+      color: var(--espresso);
+      min-width: 0;
+      flex-shrink: 0;
+    }
+    .ingredient-value {
+      color: #4A3830;
+    }
+
+    /* ── NAV ── */
+    .nav {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      background: var(--espresso);
+      padding: 10px 16px;
+      display: flex;
+      gap: 6px;
+      overflow-x: auto;
+      -webkit-overflow-scrolling: touch;
+      scrollbar-width: none;
+    }
+    .nav::-webkit-scrollbar { display: none; }
+    .nav a {
+      display: flex;
+      align-items: center;
+      gap: 5px;
+      text-decoration: none;
+      white-space: nowrap;
+      font-family: 'Inter', sans-serif;
+      font-size: 11px;
+      font-weight: 500;
+      color: var(--taupe);
+      padding: 5px 10px;
+      border-radius: 20px;
+      border: 1px solid rgba(255,255,255,0.12);
+      transition: all 0.15s;
+      flex-shrink: 0;
+    }
+    .nav a:hover, .nav a:active {
+      background: rgba(255,255,255,0.1);
+      color: #FAF7F2;
+    }
+    .nav a .n {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 13px;
+      font-weight: 700;
+      color: var(--rose);
+      line-height: 1;
+    }
+
+    /* ── WITHDRAWAL SCHEME ── */
+    .scheme {
+      margin: 20px 0;
+      position: relative;
+    }
+    .scheme::before {
+      content: '';
+      position: absolute;
+      left: 22px;
+      top: 24px;
+      bottom: 24px;
+      width: 2px;
+      background: linear-gradient(to bottom, var(--rose), var(--taupe));
+      border-radius: 2px;
+    }
+    .scheme-stage {
+      display: flex;
+      gap: 16px;
+      align-items: flex-start;
+      margin-bottom: 12px;
+      position: relative;
+    }
+    .scheme-stage:last-child { margin-bottom: 0; }
+    .scheme-step-col {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      flex-shrink: 0;
+      padding-top: 2px;
+    }
+    .scheme-step-circle {
+      width: 46px;
+      height: 46px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 20px;
+      font-weight: 700;
+      color: #fff;
+      flex-shrink: 0;
+      position: relative;
+      z-index: 1;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.12);
+    }
+    .step-1 .scheme-step-circle { background: #B07060; }
+    .step-2 .scheme-step-circle { background: #9E7B5A; }
+    .step-3 .scheme-step-circle { background: #6A8E7A; }
+    .step-4 .scheme-step-circle { background: #4A8A6E; }
+    .scheme-stage-body {
+      flex: 1;
+      background: #fff;
+      border-radius: var(--radius);
+      border: 1px solid var(--sand);
+      padding: 14px 16px 16px;
+    }
+    .step-1 .scheme-stage-body { border-top: 3px solid #B07060; }
+    .step-2 .scheme-stage-body { border-top: 3px solid #9E7B5A; }
+    .step-3 .scheme-stage-body { border-top: 3px solid #6A8E7A; }
+    .step-4 .scheme-stage-body { border-top: 3px solid #4A8A6E; }
+    .scheme-stage-num {
+      font-family: 'Inter', sans-serif;
+      font-size: 14px;
+      font-weight: 600;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: #808080;
+      margin-bottom: 3px;
+    }
+    .scheme-stage-title {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 19px;
+      font-weight: 700;
+      color: var(--espresso);
+      margin-bottom: 10px;
+      line-height: 1.2;
+    }
+    .scheme-stage-body ul {
+      margin: 0;
+      padding-left: 18px;
+    }
+    .scheme-stage-body li {
+      font-size: 14px;
+      margin-bottom: 4px;
+    }
+
+    /* ── SECTION SEPARATOR ── */
+    .section-sep {
+      height: 2px;
+      background: linear-gradient(to right, var(--rose), transparent);
+      margin: 40px 20px 0;
+      border-radius: 2px;
+    }
+
+    /* ── FOOTER ── */
+    .footer {
+      padding: 24px 20px 0;
+      font-size: 12px;
+      color: var(--taupe);
+      text-align: center;
+      font-style: italic;
+      line-height: 1.6;
+    }
+  </style>
+</head>
+<body>
+<div class="page">
+
+  <!-- ════════════ COVER ════════════ -->
+  <header class="cover">
+    <div class="cover-label">Методичка</div>
+    <h1 class="cover-title">Сыворотки для роста ресниц</h1>
+    <p class="cover-sub">Анализ составов · Безопасность · Рекомендации</p>
+    <img class="cover-img" src="images/image6.jpg" alt="Сыворотки для роста ресниц">
+  </header>
+
+  <!-- ════════════ NAV ════════════ -->
+  <nav class="nav">
+    <a href="#s1"><span class="n">1</span> Простагландины</a>
+    <a href="#s2"><span class="n">2</span> Анализ</a>
+    <a href="#s3"><span class="n">3</span> Ингредиенты</a>
+    <a href="#s4"><span class="n">4</span> Опасные</a>
+    <a href="#s5"><span class="n">5</span> Безопасные</a>
+    <a href="#s6"><span class="n">6</span> Применение</a>
+  </nav>
+
+  <!-- ВАЖНО -->
+  <div class="section">
+    <div class="box box-warning">
+      ⚠️ <strong>ВАЖНО:</strong> Эта методичка носит информационный характер. Перед применением любых продуктов вблизи глаз рекомендуется консультация офтальмолога или дерматолога, особенно при наличии сухого глаза, глаукомы, чувствительной кожи или беременности.
+    </div>
+  </div>
+
+  <!-- ════════════ 1. ПРОСТАГЛАНДИНЫ ════════════ -->
+  <div id="s1" class="section-sep"></div>
+  <div class="section">
+    <span class="section-num">Раздел 1</span>
+    <h2>Что такое простагландины в сыворотках?</h2>
+
+    <img class="img-product" src="images/image2.jpg" alt="Простагландины в сыворотках" style="margin-left:0;margin-right:auto;">
+
+    <p>Простагландины — это природные гормоноподобные вещества в организме. В косметике для ресниц используются их синтетические аналоги (простагландиновые аналоги), которые продлевают фазу активного роста ресниц (анаген). Именно они дают самый заметный эффект — более длинные, густые ресницы за 4–8 недель.</p>
+
+    <div class="box box-info">
+      <strong>Как это работает:</strong> Простагландиновые аналоги взаимодействуют с рецепторами в фолликулах ресниц и <strong>ИСКУССТВЕННО</strong> продлевают фазу роста. Когда вы прекращаете использование — фолликулы возвращаются к своему естественному циклу, и ресницы могут казаться короче/реже, чем до начала использования.
+    </div>
+
+    <h3>Как распознать простагландин в составе?</h3>
+    <p>Ищите слово с окончанием <strong>«PROST»</strong> в INCI-названии ингредиентов:</p>
+    <ul>
+      <li><strong>Isopropyl Cloprostenate</strong> — наиболее распространённый в косметике</li>
+      <li><strong>Dechloro Dihydroxy Difluoro Ethylcloprostenolamide</strong> — в RevitaLash</li>
+      <li><strong>Bimatoprost</strong> — только в рецептурном Latisse (FDA-одобрен)</li>
+      <li><strong>Latanoprost, Travoprost, Tafluprost</strong> — другие варианты</li>
+    </ul>
+
+    <div class="box box-danger">
+      ⚠️ <strong>ПРЕДУПРЕЖДЕНИЕ FDA:</strong> Isopropyl Cloprostenate относится к тому же классу соединений, что и препараты от глаукомы. FDA выдало официальное предупреждение компании RapidLash за использование этого вещества в косметике без надлежащих предупреждений о побочных эффектах.
+    </div>
+
+    <h3>Возможные побочные эффекты простагландинов:</h3>
+    <ul>
+      <li>Раздражение и покраснение глаз</li>
+      <li>Гиперпигментация кожи вокруг глаз (потемнение)</li>
+      <li>Изменение цвета радужки (редко, но необратимо)</li>
+      <li>Потеря орбитального жира (запавшие глаза) — при длительном применении</li>
+      <li><strong>СИНДРОМ ОТМЕНЫ:</strong> резкое ухудшение состояния ресниц после прекращения</li>
+      <li>Снижение внутриглазного давления</li>
+      <li>Противопоказаны при беременности, кормлении, глаукоме, сухом глазе</li>
+    </ul>
+  </div>
+
+  <!-- ════════════ 2. АНАЛИЗ СЫВОРОТОК ════════════ -->
+  <div id="s2" class="section-sep"></div>
+  <div class="section">
+    <span class="section-num">Раздел 2</span>
+    <h2>Примеры анализа сывороток</h2>
+
+    <p class="scroll-hint">← прокрутите таблицу вправо →</p>
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>Продукт / Бренд</th>
+            <th>Простагландины?</th>
+            <th>Эффект отмены</th>
+            <th>Оценка безопасности</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>RapidLash Eyelash Enhancing Serum</strong></td>
+            <td class="cell-danger">ДА</td>
+            <td class="cell-danger">ДА</td>
+            <td>Содержит Isopropyl Cloprostenate. FDA выдала предупреждение. Риск изменения цвета радужки, раздражения.</td>
+          </tr>
+          <tr>
+            <td><strong>GrandeLASH-MD</strong></td>
+            <td class="cell-danger">ДА</td>
+            <td class="cell-danger">ДА</td>
+            <td>Содержит Isopropyl Cloprostenate. Бренд утверждает, что нет побочек, но механизм действия как у простагландинов.</td>
+          </tr>
+          <tr>
+            <td><strong>Aphro Celina Corallion</strong></td>
+            <td class="cell-danger">ДА</td>
+            <td class="cell-danger">ДА</td>
+            <td>Содержит Isopropyl Cloprostenate — аналог простагландина. Эффект отмены при прекращении использования.</td>
+          </tr>
+          <tr>
+            <td><strong>LashesMD Eyelash/Eyebrow Conditioner</strong></td>
+            <td class="cell-safe">НЕТ</td>
+            <td class="cell-safe">НЕТ</td>
+            <td>Безопасная пептидная формула SymPeptide XLash. Нет простагландинов, нет парабенов. Безопасна для чувствительных глаз.</td>
+          </tr>
+          <tr>
+            <td><strong>ViveLab Revive Therapy Hair Brow Lash</strong></td>
+            <td class="cell-safe">НЕТ</td>
+            <td class="cell-safe">НЕТ</td>
+            <td>K-beauty формула без простагландинов. 10 запатентованных ингредиентов, pH 7.0, подходит при сухом глазе и блефарите.</td>
+          </tr>
+          <tr>
+            <td><strong>The Ordinary Multi-Peptide Lash &amp; Brow</strong></td>
+            <td class="cell-safe">НЕТ</td>
+            <td class="cell-safe">НЕТ</td>
+            <td>Полностью безопасная пептидная формула без простагландинов. Подтверждено брендом и дерматологами.</td>
+          </tr>
+          <tr>
+            <td><strong>Toplash Lash &amp; Brow Booster</strong></td>
+            <td class="cell-danger">?</td>
+            <td class="cell-danger">?</td>
+            <td>Производитель заявляет об отсутствии гормонов. Однако ряд покупателей описывает побочки, характерные для простагландинов. Состав требует независимой проверки.</td>
+          </tr>
+          <tr>
+            <td><strong>Scalp D Beauté Premium (ANGFA)</strong></td>
+            <td class="cell-safe">НЕТ</td>
+            <td class="cell-safe">НЕТ</td>
+            <td>Японская пептидно-ботаническая формула без простагландинов. Клинически протестирована. Мягкая и эффективная.</td>
+          </tr>
+          <tr>
+            <td><strong>VEGAMOUR GRO Lash Serum</strong></td>
+            <td class="cell-safe">НЕТ</td>
+            <td class="cell-safe">НЕТ</td>
+            <td>Растительная веганская формула. Karmatin™ — биоидентичный кератин из маша. Без синтетических гормонов.</td>
+          </tr>
+          <tr>
+            <td><strong>REVIVE7 Plus Lash Serum</strong></td>
+            <td class="cell-safe">НЕТ</td>
+            <td class="cell-safe">НЕТ</td>
+            <td>Канадская пептидная формула. Многофакторное воздействие на фолликул. Без простагландинов.</td>
+          </tr>
+          <tr>
+            <td><strong>Olaplex Lashbond</strong></td>
+            <td class="cell-safe">НЕТ</td>
+            <td class="cell-safe">НЕТ</td>
+            <td>Bond-building технология восстанавливает структуру ресницы изнутри. Без простагландинов. Уникальный механизм.</td>
+          </tr>
+          <tr>
+            <td><strong>Pronexa Lavish Lash (Eyelash &amp; Brow Serum)</strong></td>
+            <td class="cell-safe">НЕТ</td>
+            <td class="cell-safe">НЕТ</td>
+            <td>Пептидная формула с Myristoyl Pentapeptide-17 и Biotinoyl Tripeptide-1. Безопасна для длительного применения.</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <!-- ══ НЕБЕЗОПАСНЫЕ СЫВОРОТКИ ══ -->
+
+  <!-- ── 2.1 Aphro Celina ── -->
+  <div class="sub-heading">
+    <div class="sub-heading-num">2.1</div>
+    <div class="sub-heading-text">Aphro Celina Eye Lash Corallion <span class="badge badge-danger">⚠️ Простагландин</span></div>
+  </div>
+  <div class="product-card">
+    <img class="img-product" src="images/image11.png" alt="Aphro Celina Corallion" style="margin:20px auto 0;">
+    <div class="product-card-inner">
+      <div class="box box-danger" style="margin-top:0;">
+        <strong>СОСТАВ ПОДТВЕРЖДЁН:</strong> Isopropyl Cloprostenate присутствует в составе (подтверждено несколькими европейскими ритейлерами).
+      </div>
+      <p><strong>Полный состав:</strong> Aqua, Butylene Glycol, Glycerin, Chamomilla Recutita Flower Extract, Panthenol, PVP, Hydroxyethylcellulose, Potassium Sorbate, Phenoxyethanol, Benzoic Acid, Dehydroacetic Acid, <strong>Isopropyl Cloprostenate</strong>.</p>
+      <div class="ingredient-row"><span class="ingredient-label">Базовые ингредиенты:</span><span class="ingredient-value">Chamomilla (ромашка, успокоение), Panthenol (B5, увлажнение), Glycerin (увлажнение).</span></div>
+      <div class="ingredient-row"><span class="ingredient-label">Активный рост:</span><span class="ingredient-value">Isopropyl Cloprostenate — аналог простагландина. Реальный рост ресниц, но с риском эффекта отмены.</span></div>
+      <div class="ingredient-row"><span class="ingredient-label">Эффект отмены:</span><span class="ingredient-value">Да. Бренд честно предупреждает о «фазе выпадения» в начале применения.</span></div>
+      <div class="ingredient-row"><span class="ingredient-label">Рынок:</span><span class="ingredient-value">Германия / Европа (лидер продаж). Доступна на Amazon.</span></div>
+    </div>
+  </div>
+
+  <!-- ── 2.2 RapidLash ── -->
+  <div class="sub-heading">
+    <div class="sub-heading-num">2.2</div>
+    <div class="sub-heading-text">RapidLash Eyelash Enhancing Serum <span class="badge badge-danger">⚠️ Простагландин</span></div>
+  </div>
+  <div class="product-card">
+    <img class="img-product" src="images/image14.png" alt="RapidLash" style="margin:20px auto 0;">
+    <div class="product-card-inner">
+      <div class="box box-danger" style="margin-top:0;">
+        <strong>ОСТОРОЖНО:</strong> Сам бренд открыто указывает «This cosmetic product contains isopropyl cloprostenate, a synthetic prostaglandin analog.» FDA выдало официальное предупреждение.
+      </div>
+      <p><strong>Полный состав:</strong> Aqua, Butylene Glycol, Hydroxyethylcellulose, Sodium Hyaluronate, Octapeptide-2, Copper Tripeptide-1, sh-Polypeptide-1, Cucurbita Pepo Oil, Glycine Soja Oil, Glycerin, Rhizobian Gum, Biotin, Panthenol, Pantethine, Allantoin, Sea Water, Alcohol, <strong>Isopropyl Cloprostenate</strong>…</p>
+      <div class="ingredient-row"><span class="ingredient-label">Хорошие ингредиенты:</span><span class="ingredient-value">Sodium Hyaluronate, Copper Tripeptide-1, Biotin, Panthenol, Allantoin — питающие и укрепляющие компоненты.</span></div>
+      <div class="ingredient-row"><span class="ingredient-label">Проблемный:</span><span class="ingredient-value">Isopropyl Cloprostenate — весь драматический эффект достигается за счёт него.</span></div>
+      <div class="ingredient-row"><span class="ingredient-label">FDA-статус:</span><span class="ingredient-value">Официальный Warning Letter от FDA. Запрещён в некоторых странах ЕС.</span></div>
+      <div class="ingredient-row"><span class="ingredient-label">Рынок:</span><span class="ingredient-value">США, часть Европы. В России официально не сертифицирован.</span></div>
+    </div>
+  </div>
+
+  <!-- ── 2.3 GrandeLASH ── -->
+  <div class="sub-heading">
+    <div class="sub-heading-num">2.3</div>
+    <div class="sub-heading-text">GrandeLASH-MD <span class="badge badge-danger">⚠️ Простагландин</span></div>
+  </div>
+  <div class="product-card">
+    <img class="img-product" src="images/image13.png" alt="GrandeLASH-MD" style="margin:20px auto 0;">
+    <div class="product-card-inner">
+      <div class="box box-danger" style="margin-top:0;">
+        <strong>СОДЕРЖИТ простагландин:</strong> GrandeLASH-MD сам открыто указывает «This cosmetic product contains (a small amount of) isopropyl cloprostenate, an analog of prostaglandin.»
+      </div>
+      <p><strong>Состав:</strong> Water, Panthenol, Glycerin, Amino Acids, Aloe Vera, Honey Extract, Grape Seed Extract, Sodium Hyaluronate, <strong>Isopropyl Cloprostenate</strong> (analog of prostaglandin), Radish Root Ferment, Ginseng…</p>
+      <div class="ingredient-row"><span class="ingredient-label">Позиция бренда:</span><span class="ingredient-value">Утверждают, что Isopropyl Cloprostenate — НЕ гормон. Провели 8-месячное исследование без изменений цвета радужки.</span></div>
+      <div class="ingredient-row"><span class="ingredient-label">Честная оценка:</span><span class="ingredient-value">Технически — аналог простагландина. Эффект отмены вероятен. Концентрация ниже, чем в RapidLash.</span></div>
+      <div class="ingredient-row"><span class="ingredient-label">Рынок:</span><span class="ingredient-value">#1 сыворотка для ресниц в США (Sephora, Ulta). ~$30–70 в зависимости от объёма.</span></div>
+    </div>
+  </div>
+
+  <!-- ══ БЕЗОПАСНЫЕ СЫВОРОТКИ ══ -->
+
+  <!-- ── 2.4 LashesMD ── -->
+  <div class="sub-heading">
+    <div class="sub-heading-num">2.4</div>
+    <div class="sub-heading-text">LashesMD Eyelash/Eyebrow Conditioner <span class="badge badge-safe">✓ Безопасная</span></div>
+  </div>
+  <div class="product-card">
+    <img class="img-product" src="images/image9.png" alt="LashesMD" style="margin:20px auto 0;">
+    <div class="product-card-inner">
+      <div class="box box-safe" style="margin-top:0;">
+        <strong>БЕЗОПАСНА:</strong> Явно позиционируется как Paraben Free + Prostaglandin Free. Подтверждено производителем и независимыми анализами.
+      </div>
+      <p><strong>Ключевые ингредиенты:</strong> SymPeptide XLash (запатентованный пептид), Keratin, Panthenol (B5), Sodium Hyaluronate, Honey Extract, Alfalfa Extract, Nettle Extract, Chamomile Extract.</p>
+      <div class="ingredient-row"><span class="ingredient-label">Механизм:</span><span class="ingredient-value">Пептиды стимулируют выработку кератина, ботанические экстракты питают и укрепляют. Нет гормональных компонентов.</span></div>
+      <div class="ingredient-row"><span class="ingredient-label">Эффект отмены:</span><span class="ingredient-value">Нет. Пептиды улучшают состояние ресниц, а не перепрограммируют цикл роста.</span></div>
+      <div class="ingredient-row"><span class="ingredient-label">Результат:</span><span class="ingredient-value">Более медленный по сравнению с простагландиновыми, но стабильный и безопасный.</span></div>
+      <div class="ingredient-row"><span class="ingredient-label">Рынок:</span><span class="ingredient-value">США (Henry Schein Medical, Amazon).</span></div>
+    </div>
+  </div>
+
+  <!-- ── 2.5 The Ordinary ── -->
+  <div class="sub-heading">
+    <div class="sub-heading-num">2.5</div>
+    <div class="sub-heading-text">The Ordinary Multi-Peptide Lash &amp; Brow <span class="badge badge-safe">✓ Безопасная</span></div>
+  </div>
+  <div class="product-card">
+    <img class="img-product" src="images/image12.png" alt="The Ordinary" style="margin:20px auto 0;">
+    <div class="product-card-inner">
+      <div class="box box-safe" style="margin-top:0;">
+        <strong>БЕЗОПАСНА:</strong> Официально подтверждено брендом — «Does not contain prostaglandins». Прошёл офтальмологические тесты, подходит для контактных линз.
+      </div>
+      <p><strong>Состав:</strong> Aqua, Glycerin, Butylene Glycol, Myristoyl Pentapeptide-17, Biotinoyl Tripeptide-1, Oligopeptide-2, Acetyl Tetrapeptide-3, Caffeine, Panthenol, Arginine, Glycine, Glycoproteins, Larix Europaea Wood Extract, Trifolium Pratense Flower Extract, Camellia Sinensis Leaf Extract, Zinc Chloride…</p>
+      <div class="ingredient-row"><span class="ingredient-label">4 пептидных комплекса:</span><span class="ingredient-value">SYMPEPTIDE XLASH (Myristoyl Pentapeptide-17), Anargy (Oligopeptide-2), Widelash (Biotinoyl Tripeptide-1 + Panthenol), CAPIXYL (Acetyl Tetrapeptide-3 + Red Clover).</span></div>
+      <div class="ingredient-row"><span class="ingredient-label">Дополнительно:</span><span class="ingredient-value">Caffeine (стимуляция фолликулов), Green Tea Extract (антиоксидант), Zinc (укрепление структуры волоса).</span></div>
+      <div class="ingredient-row"><span class="ingredient-label">Честная оценка:</span><span class="ingredient-value">Эффект плотности/объёма есть. Драматического удлинения (как от простагландинов) — нет. Хорошо для поддержания и профилактики.</span></div>
+      <div class="ingredient-row"><span class="ingredient-label">Цена/качество:</span><span class="ingredient-value">Одна из лучших безопасных опций (~$15–17).</span></div>
+      <div class="ingredient-row"><span class="ingredient-label">Рынок:</span><span class="ingredient-value">Sephora, Ulta, DECIEM. Россия — DECIEM, Goldapple.</span></div>
+    </div>
+  </div>
+
+  <!-- ── 2.6 ViveLab ── -->
+  <div class="sub-heading">
+    <div class="sub-heading-num">2.6</div>
+    <div class="sub-heading-text">ViveLab Revive Therapy Hair Brow Lash Serum <span class="badge badge-safe">✓ Безопасная</span></div>
+  </div>
+  <div class="product-card">
+    <img class="img-product" src="images/image7.png" alt="ViveLab" style="margin:20px auto 0;">
+    <div class="product-card-inner">
+      <div class="box box-safe" style="margin-top:0;">
+        <strong>БЕЗОПАСНА:</strong> Корейская формула без простагландинов. pH 7.0 (как натуральные слёзы). Прошла дерматологические тесты. Подходит при сухом глазе и блефарите.
+      </div>
+      <p><strong>Состав:</strong> Water, Glycerin, Butylene Glycol, Malus Domestica Fruit Cell Culture Extract, Panthenol, Rehmannia Glutinosa Root Extract, Korean Herbal Extracts, Myristoyl Pentapeptide-4, Copper Tripeptide-1, Biotin, Alanine/Histidine/Lysine Polypeptide Copper HCL, Camellia Japonica Flower Extract, Madecassoside…</p>
+      <div class="ingredient-row"><span class="ingredient-label">Ключевые компоненты:</span><span class="ingredient-value">3 типа пептидов + Biotin + Panthenol + 10 запатентованных ингредиентов.</span></div>
+      <div class="ingredient-row"><span class="ingredient-label">Особенность:</span><span class="ingredient-value">Корейские травяные экстракты (Rehmannia, Lycium, Cornus) — мощные антиоксиданты и стимуляторы роста.</span></div>
+      <div class="ingredient-row"><span class="ingredient-label">Удобство:</span><span class="ingredient-value">Уникальный аппликатор — шарик + щёточка-спули.</span></div>
+      <div class="ingredient-row"><span class="ingredient-label">Рынок:</span><span class="ingredient-value">Корея (#1 сыворотка для ресниц), Olive Young, YesStyle, Amazon. В Россию — через маркетплейсы.</span></div>
+    </div>
+  </div>
+
+  <!-- ── 2.7 Toplash ── -->
+  <div class="sub-heading">
+    <div class="sub-heading-num">2.7</div>
+    <div class="sub-heading-text">Toplash Lash &amp; Brow Booster <span class="badge badge-safe">? Под вопросом</span></div>
+  </div>
+  <div class="product-card">
+    <img class="img-product" src="images/image8.png" alt="Toplash" style="margin:20px auto 0;">
+    <div class="product-card-inner">
+      <div class="box box-warning" style="margin-top:0;">
+        <strong>⚠️ ПОД ВОПРОСОМ:</strong> Производитель официально заявляет об отсутствии простагландинов и гормональных компонентов в составе. Однако часть покупателей в отзывах описывает побочные эффекты, характерные именно для простагландиновых сывороток: потемнение кожи вокруг глаз, ощущение «западания» орбитальной зоны, выраженный эффект отмены. Полный INCI-состав некоторых партий не раскрывается публично. До официального подтверждения независимым анализом рекомендуется применять с осторожностью.
+      </div>
+      <p><strong>Состав:</strong> Water, Glycerin, Butylene Glycol, Myristoyl Pentapeptide-17, Biotinoyl Tripeptide-1, Panthenol, Sodium Hyaluronate, Hydrolyzed Keratin (в некоторых версиях), растительные экстракты (Centella, Green Tea), Sorbitol и мягкие стабилизаторы.</p>
+      <div class="ingredient-row"><span class="ingredient-label">Ключевые компоненты:</span><span class="ingredient-value">2 типа пептидов + Panthenol + Гиалуроновая кислота + увлажняющая база.</span></div>
+      <div class="ingredient-row"><span class="ingredient-label">Особенность:</span><span class="ingredient-value">Пептидная формула стимулирует синтез кератина и мягко продлевает фазу роста без воздействия на простагландиновые рецепторы. Подходит для выхода после GrandeLASH и других простагландиновых сывороток.</span></div>
+      <div class="ingredient-row"><span class="ingredient-label">Удобство:</span><span class="ingredient-value">Тонкий аппликатор-лайнер. Доступна версия 3 ml и XL 6 ml.</span></div>
+      <div class="ingredient-row"><span class="ingredient-label">Рынок:</span><span class="ingredient-value">Европа, Amazon EU, LookFantastic, в РФ — через маркетплейсы.</span></div>
+    </div>
+  </div>
+
+  <!-- ── 2.8 Scalp D Premium ── -->
+  <div class="sub-heading">
+    <div class="sub-heading-num">2.8</div>
+    <div class="sub-heading-text">Scalp D Beauté Pure Free Eyelash Serum Premium (ANGFA) <span class="badge badge-safe">✓ Безопасная</span></div>
+  </div>
+  <div class="product-card">
+    <img class="img-product" src="images/IMG_3662.jpg" alt="Scalp D Premium ANGFA" style="margin:20px auto 0;">
+    <div class="product-card-inner">
+      <div class="box box-safe" style="margin-top:0;">
+        <strong>БЕЗОПАСНА и одна из самых сильных среди безопасных:</strong> Японская формула без простагландинов — «Pure Free» означает без простагландинов, без парабенов, без спирта, без красителей и без отдушек. По результатам клинических испытаний входит в число наиболее эффективных безопасных сывороток на рынке. Лидер продаж в Японии — стране с высочайшими стандартами косметической безопасности.
+      </div>
+      <p><strong>Ключевые ингредиенты:</strong> Acetyl Hexapeptide-3, Biotinoyl Tripeptide-1, Swertia Japonica Extract (горечавка японская), Equisetum Arvense Extract (хвощ полевой), Arginine, Panthenol (B5), Sodium Hyaluronate, Tocopherol (витамин Е).</p>
+      <div class="ingredient-row"><span class="ingredient-label">Механизм:</span><span class="ingredient-value">Пептидный комплекс активирует фолликулы, экстракт горечавки (Swertia japonica) стимулирует микроциркуляцию, хвощ укрепляет структуру волоса природным кремнием.</span></div>
+      <div class="ingredient-row"><span class="ingredient-label">Особенность:</span><span class="ingredient-value">Минималистичная чистая формула — максимальная переносимость для чувствительных глаз. Не содержит ни одного потенциально раздражающего компонента.</span></div>
+      <div class="ingredient-row"><span class="ingredient-label">Эффект отмены:</span><span class="ingredient-value">Нет. Пептиды работают физиологично, не перепрограммируя гормональный цикл роста.</span></div>
+      <div class="ingredient-row"><span class="ingredient-label">Рынок:</span><span class="ingredient-value">Япония (лидер продаж), Amazon Japan, YesStyle, iHerb.</span></div>
+    </div>
+  </div>
+
+  <!-- ── 2.9 VEGAMOUR GRO ── -->
+  <div class="sub-heading">
+    <div class="sub-heading-num">2.9</div>
+    <div class="sub-heading-text">VEGAMOUR GRO Lash Serum <span class="badge badge-safe">✓ Безопасная</span></div>
+  </div>
+  <div class="product-card">
+    <img class="img-product" src="images/IMG_3664.jpg" alt="VEGAMOUR GRO Lash Serum" style="margin:20px auto 0;">
+    <div class="product-card-inner">
+      <div class="box box-safe" style="margin-top:0;">
+        <strong>БЕЗОПАСНА:</strong> Полностью растительная, веганская формула без простагландинов, без биматопроста и аналогов. Официально сертифицирована как чистая косметика (clean beauty). Подходит для веганов и аллергиков.
+      </div>
+      <p><strong>Ключевые ингредиенты:</strong> Karmatin™ (биоидентичный растительный кератин из маша / mung beans), Nicotinamide (Vitamin B3), Chia Seed Oil (Salvia Hispanica), Red Clover Extract (Trifolium Pratense), Mung Bean Extract, Organic Castor Oil.</p>
+      <div class="ingredient-row"><span class="ingredient-label">Karmatin™:</span><span class="ingredient-value">Запатентованный растительный аналог кератина, полученный из маша. Обволакивает и укрепляет ресницу вдоль всей длины, значительно снижает ломкость. Веганская альтернатива животному кератину.</span></div>
+      <div class="ingredient-row"><span class="ingredient-label">Nicotinamide (B3):</span><span class="ingredient-value">Улучшает микроциркуляцию кожи вокруг фолликула, поддерживает клеточный метаболизм. Дополнительно мягко осветляет пигментацию вокруг глаз.</span></div>
+      <div class="ingredient-row"><span class="ingredient-label">Red Clover Extract:</span><span class="ingredient-value">Содержит биоканин А, который блокирует DHT — гормон, ответственный за выпадение волос. Часть комплекса CAPIXYL.</span></div>
+      <div class="ingredient-row"><span class="ingredient-label">Эффект отмены:</span><span class="ingredient-value">Нет. Растительные компоненты действуют питающе и укрепляюще, без гормонального воздействия на фолликул.</span></div>
+      <div class="ingredient-row"><span class="ingredient-label">Рынок:</span><span class="ingredient-value">США, Sephora, Ulta, vegamour.com. Доступна через международные интернет-магазины.</span></div>
+    </div>
+  </div>
+
+  <!-- ── 2.10 REVIVE7 Plus ── -->
+  <div class="sub-heading">
+    <div class="sub-heading-num">2.10</div>
+    <div class="sub-heading-text">REVIVE7 Plus Lash Serum <span class="badge badge-safe">✓ Безопасная</span></div>
+  </div>
+  <div class="product-card">
+    <img class="img-product" src="images/IMG_3666.jpg" alt="REVIVE7 Plus Lash Serum" style="margin:20px auto 0;">
+    <div class="product-card-inner">
+      <div class="box box-safe" style="margin-top:0;">
+        <strong>БЕЗОПАСНА:</strong> Канадская формула без простагландинов. Мультипептидный комплекс с клинически подтверждённым действием — 93% участниц клинического исследования отметили улучшение густоты и длины ресниц за 30 дней применения.
+      </div>
+      <p><strong>Ключевые ингредиенты:</strong> Myristoyl Pentapeptide-17, Biotinoyl Tripeptide-1, Oligopeptide-2 (EGF), Copper Tripeptide-1 (GHK-Cu), Acetyl Tetrapeptide-3, Biotin, Panthenol, Sodium Hyaluronate, Arginine.</p>
+      <div class="ingredient-row"><span class="ingredient-label">5 пептидов одновременно:</span><span class="ingredient-value">Pentapeptide-17 (продление фазы роста), Tripeptide-1 (укрепление фолликула), GHK-Cu (регенерация и питание), Tetrapeptide-3 (объём и плотность), Oligopeptide-2 EGF (стимуляция деления клеток).</span></div>
+      <div class="ingredient-row"><span class="ingredient-label">Версия «Plus»:</span><span class="ingredient-value">Усиленная формула с добавлением Oligopeptide-2 (эпидермального фактора роста) для более быстрого и выраженного результата по сравнению с оригинальным REVIVE7.</span></div>
+      <div class="ingredient-row"><span class="ingredient-label">Аппликатор:</span><span class="ingredient-value">Ультратонкая кисточка-лайнер позволяет точно наносить по линии роста верхних и нижних ресниц.</span></div>
+      <div class="ingredient-row"><span class="ingredient-label">Рынок:</span><span class="ingredient-value">Канада, США, Amazon. Доступна через международные маркетплейсы.</span></div>
+    </div>
+  </div>
+
+  <!-- ── 2.11 Olaplex Lashbond ── -->
+  <div class="sub-heading">
+    <div class="sub-heading-num">2.11</div>
+    <div class="sub-heading-text">Olaplex Lashbond Building Serum <span class="badge badge-safe">✓ Безопасная</span></div>
+  </div>
+  <div class="product-card">
+    <img class="img-product" src="images/IMG_3667.jpg" alt="Olaplex Lashbond" style="margin:20px auto 0;">
+    <div class="product-card-inner">
+      <div class="box box-safe" style="margin-top:0;">
+        <strong>БЕЗОПАСНА:</strong> Не содержит простагландинов. Уникальная запатентованная bond-building технология — та же система восстановления дисульфидных связей, что используется в Olaplex для волос, адаптированная специально для ресниц.
+      </div>
+      <p><strong>Ключевые ингредиенты:</strong> Bis-Aminopropyl Diglycol Dimaleate (запатентованный bond builder Olaplex), Castor Oil, Biotin, Panthenol, Hydrolyzed Keratin, Arginine, Glycerin, Sodium Hyaluronate.</p>
+      <div class="ingredient-row"><span class="ingredient-label">Bond Building:</span><span class="ingredient-value">Bis-Aminopropyl Diglycol Dimaleate восстанавливает разорванные дисульфидные связи внутри структуры волоса — ресница становится прочнее, эластичнее, значительно снижается ломкость.</span></div>
+      <div class="ingredient-row"><span class="ingredient-label">Механизм:</span><span class="ingredient-value">Работает на структурном уровне: не стимулирует рост через фолликул, а укрепляет уже существующий волос. Особенно полезно для ресниц, повреждённых после наращивания, химической завивки или длительного применения туши.</span></div>
+      <div class="ingredient-row"><span class="ingredient-label">Честная оценка:</span><span class="ingredient-value">Не даёт выраженного удлинения, но значительно снижает выпадение от ломкости и визуально делает ресницы более полными. Идеален как база под тушь и для восстановления повреждённых ресниц.</span></div>
+      <div class="ingredient-row"><span class="ingredient-label">Рынок:</span><span class="ingredient-value">Sephora, Ulta, olaplex.com, Amazon. Доступна через международные магазины.</span></div>
+    </div>
+  </div>
+
+  <!-- ── 2.12 Pronexa Lavish Lash ── -->
+  <div class="sub-heading">
+    <div class="sub-heading-num">2.12</div>
+    <div class="sub-heading-text">Pronexa Lavish Lash Eyelash &amp; Brow Serum <span class="badge badge-safe">✓ Безопасная</span></div>
+  </div>
+  <div class="product-card">
+    <img class="img-product" src="images/IMG_3668.jpg" alt="Pronexa Lavish Lash" style="margin:20px auto 0;">
+    <div class="product-card-inner">
+      <div class="box box-safe" style="margin-top:0;">
+        <strong>БЕЗОПАСНА:</strong> Пептидная формула без простагландинов, без парабенов, без сульфатов. Подходит для ресниц и бровей одновременно. Офтальмологически протестирована, подходит для чувствительных глаз.
+      </div>
+      <p><strong>Ключевые ингредиенты:</strong> Myristoyl Pentapeptide-17, Biotinoyl Tripeptide-1, Biotin (B7), Panthenol (B5), Sodium Hyaluronate, Arginine, Niacinamide (B3), Hydrolyzed Wheat Protein, растительные экстракты (Green Tea, Aloe Vera).</p>
+      <div class="ingredient-row"><span class="ingredient-label">Пептидный дуэт:</span><span class="ingredient-value">Myristoyl Pentapeptide-17 клинически увеличивает длину ресниц, Biotinoyl Tripeptide-1 снижает выпадение и увеличивает плотность на +19% (по данным клинических исследований ингредиента).</span></div>
+      <div class="ingredient-row"><span class="ingredient-label">Niacinamide (B3):</span><span class="ingredient-value">Улучшает питание фолликулов через поддержку микроциркуляции, укрепляет барьер кожи вокруг глаз, мягко осветляет пигментацию.</span></div>
+      <div class="ingredient-row"><span class="ingredient-label">Удобство:</span><span class="ingredient-value">Аппликатор-кисточка позволяет наносить и по линии роста ресниц, и прорисовывать редкие участки бровей. Объём 3 мл.</span></div>
+      <div class="ingredient-row"><span class="ingredient-label">Рынок:</span><span class="ingredient-value">США, Amazon, Walmart. Доступна через международные маркетплейсы.</span></div>
+    </div>
+  </div>
+
+  <!-- ════════════ 3. ПОЛЕЗНЫЕ ИНГРЕДИЕНТЫ ════════════ -->
+  <div id="s3" class="section-sep"></div>
+  <div class="section">
+    <span class="section-num">Раздел 3</span>
+    <h2>Полезные ингредиенты — что должно быть в составе</h2>
+
+    <div class="img-pair">
+      <img src="images/image5.jpg" alt="Ингредиенты для ресниц">
+      <img src="images/image4.jpg" alt="Уход за ресницами">
+    </div>
+
+    <p class="scroll-hint">← прокрутите таблицу вправо →</p>
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>Ингредиент</th>
+            <th>Эффект</th>
+            <th>Описание</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>Myristoyl Pentapeptide-17</strong></td>
+            <td>Длина + Плотность</td>
+            <td>Стимулирует выработку кератина. Клинически увеличивает длину ресниц. Содержится в ViveLab, The Ordinary, REVIVE7, Pronexa, Toplash.</td>
+          </tr>
+          <tr>
+            <td><strong>Biotinoyl Tripeptide-1 (Capixyl)</strong></td>
+            <td>Длина + Против выпадения</td>
+            <td>Комплекс биотина и трипептида. Снижает выпадение на 67% и увеличивает плотность. Результаты через 30 дней.</td>
+          </tr>
+          <tr>
+            <td><strong>Acetyl Tetrapeptide-3 + Красный клевер</strong></td>
+            <td>Плотность + Толщина</td>
+            <td>Комплекс CAPIXYL. Борется с выпадением, увеличивает плотность. Содержится в The Ordinary.</td>
+          </tr>
+          <tr>
+            <td><strong>Copper Tripeptide-1 (GHK-Cu)</strong></td>
+            <td>Рост + Восстановление</td>
+            <td>Медный пептид с ранозаживляющими свойствами. Стимулирует деление клеток фолликула, питает корни. Содержится в ViveLab, REVIVE7 Plus.</td>
+          </tr>
+          <tr>
+            <td><strong>Oligopeptide-2 (EGF)</strong></td>
+            <td>Рост + Объём</td>
+            <td>Эпидермальный фактор роста. Стимулирует пролиферацию кератиноцитов. Входит в REVIVE7 Plus и комплекс Anargy в The Ordinary.</td>
+          </tr>
+          <tr>
+            <td><strong>Biotin (Витамин B7)</strong></td>
+            <td>Прочность</td>
+            <td>Незаменимый кофактор для производства кератина. Укрепляет структуру волоса. Есть во всех качественных сыворотках.</td>
+          </tr>
+          <tr>
+            <td><strong>Panthenol (Витамин B5)</strong></td>
+            <td>Увлажнение + Против ломкости</td>
+            <td>Обволакивает ресницы, удерживает влагу. Защищает от ломкости, придаёт гибкость.</td>
+          </tr>
+          <tr>
+            <td><strong>Sodium Hyaluronate</strong></td>
+            <td>Увлажнение</td>
+            <td>Гиалуроновая кислота. Увлажняет линию роста ресниц, поддерживает здоровую среду для фолликулов.</td>
+          </tr>
+          <tr>
+            <td><strong>Keratin</strong></td>
+            <td>Прочность + Толщина</td>
+            <td>Основной белок ресниц. Восполняет структурные белки, укрепляет волос снаружи, добавляет объём.</td>
+          </tr>
+          <tr>
+            <td><strong>Caffeine</strong></td>
+            <td>Стимуляция роста</td>
+            <td>Улучшает микроциркуляцию в фолликулах ресниц, стимулирует деление клеток.</td>
+          </tr>
+          <tr>
+            <td><strong>Castor Oil</strong></td>
+            <td>Питание + Рост</td>
+            <td>Богато рицинолевой кислотой. Питает и укрепляет ресницы, препятствует ломкости. Подходит для домашнего ухода.</td>
+          </tr>
+          <tr>
+            <td><strong>Red Clover Extract</strong></td>
+            <td>Против выпадения</td>
+            <td>Содержит биоканин А — блокирует DHT, ответственный за выпадение волос. Часть комплекса CAPIXYL. Есть в VEGAMOUR GRO.</td>
+          </tr>
+          <tr>
+            <td><strong>Масло усьмы</strong></td>
+            <td>Прочность</td>
+            <td>Укрепляет фолликулы, пробуждает «спящие» луковицы, питает кожу и восстанавливает структуру волос.</td>
+          </tr>
+          <tr>
+            <td><strong>Karmatin™ (Mung Bean Keratin)</strong></td>
+            <td>Прочность + Покрытие</td>
+            <td>Запатентованный растительный биоидентичный кератин из маша. Обволакивает ресницу по всей длине, снижает ломкость, придаёт блеск. Веганский аналог животного кератина. Содержится в VEGAMOUR GRO.</td>
+          </tr>
+          <tr>
+            <td><strong>Nicotinamide / Niacinamide (B3)</strong></td>
+            <td>Питание фолликулов + Пигментация</td>
+            <td>Улучшает микроциркуляцию кожи вокруг линии роста ресниц, поддерживает клеточный метаболизм. Дополнительно осветляет гиперпигментацию вокруг глаз, вызванную простагландинами. Содержится в VEGAMOUR GRO, Pronexa Lavish Lash.</td>
+          </tr>
+          <tr>
+            <td><strong>Bis-Aminopropyl Diglycol Dimaleate</strong></td>
+            <td>Восстановление структуры волоса</td>
+            <td>Запатентованный bond builder Olaplex. Восстанавливает разорванные дисульфидные связи внутри стержня ресницы — делает волос прочнее, снижает ломкость от механических повреждений. Содержится в Olaplex Lashbond.</td>
+          </tr>
+          <tr>
+            <td><strong>Swertia Japonica Extract</strong></td>
+            <td>Стимуляция роста</td>
+            <td>Японский экстракт горечавки. Усиливает микроциркуляцию в коже вокруг фолликула, активирует спящие луковицы. Традиционно применяется в японской косметике. Содержится в Scalp D Beauté Premium.</td>
+          </tr>
+          <tr>
+            <td><strong>Sarsasapogenin (Volufiline)</strong></td>
+            <td>Восстановление орбитального жира</td>
+            <td>Активный ингредиент France Sederma. Стимулирует адипогенез — увеличивает объём жировых клеток (адипоцитов). Применяется для восстановления орбитального жира, утраченного вследствие длительного применения простагландиновых сывороток («запавшие глаза»).</td>
+          </tr>
+          <tr>
+            <td><strong>Vitamin C 5% (L-Ascorbic Acid)</strong></td>
+            <td>Осветление + Восстановление кожи</td>
+            <td>Мощный антиоксидант. Тормозит синтез меланина, осветляя гиперпигментацию вокруг глаз после простагландинов. Стимулирует синтез коллагена, улучшает упругость кожи. Содержится в Paula's Choice C5 Super Boost Eye Cream.</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <h3>3.1 По задачам — что искать в составе</h3>
+
+    <h4>Для удлинения ресниц:</h4>
+    <ul>
+      <li><strong>Myristoyl Pentapeptide-17</strong> — клинически увеличивает длину</li>
+      <li><strong>Myristoyl Hexapeptide-16</strong> — в связке с Pentapeptide-17</li>
+      <li><strong>Oligopeptide-2 (EGF)</strong> — эпидермальный фактор роста, ускоряет деление клеток фолликула</li>
+      <li><strong>Isopropyl Cloprostenate</strong> — максимальный эффект, но с рисками</li>
+      <li><strong>Bimatoprost</strong> (только Latisse, рецепт)</li>
+    </ul>
+
+    <h4>Для увеличения толщины и объёма:</h4>
+    <ul>
+      <li><strong>Keratin / Karmatin™</strong> — структурный белок ресниц (животный или растительный)</li>
+      <li><strong>Biotinoyl Tripeptide-1 (Capixyl)</strong> — +19% толщины в исследованиях</li>
+      <li><strong>Acetyl Tetrapeptide-3 + Red Clover</strong> — комплекс CAPIXYL</li>
+      <li><strong>SymPeptide XLash</strong> — стимулирует выработку кератина</li>
+      <li><strong>Panthenol</strong> — обволакивает волос, визуально утолщает</li>
+      <li><strong>Bis-Aminopropyl Diglycol Dimaleate</strong> (Olaplex) — восстанавливает структуру изнутри, снижает ломкость</li>
+    </ul>
+
+    <h4>Для предотвращения выпадения:</h4>
+    <ul>
+      <li><strong>Biotinoyl Tripeptide-1</strong> — снижает выпадение</li>
+      <li><strong>Acetyl Tetrapeptide-3 + Trifolium Pratense</strong> — блокирует DHT</li>
+      <li><strong>Red Clover Extract (Karmatin GRO)</strong> — биоканин А против DHT</li>
+      <li><strong>Oligopeptide-2 (EGF)</strong> — фактор роста, стимулирует деление клеток</li>
+      <li><strong>Copper Tripeptide-1</strong> — укрепляет фолликул</li>
+      <li><strong>Biotin (B7)</strong> — дефицит биотина = выпадение</li>
+    </ul>
+
+    <h4>Для восстановления после побочных эффектов простагландинов:</h4>
+    <ul>
+      <li><strong>Nicotinamide / Niacinamide (B3)</strong> — против гиперпигментации вокруг глаз</li>
+      <li><strong>Vitamin C 5%</strong> — осветление потемневшей кожи вокруг глаз, синтез коллагена</li>
+      <li><strong>Sarsasapogenin (Volufiline)</strong> — восстановление орбитального жира при «запавших глазах»</li>
+      <li><strong>Sodium Hyaluronate</strong> — восстановление увлажнения и здоровья кожи</li>
+      <li><strong>Polypeptides</strong> — восстановление упругости и тонуса кожи вокруг глаз</li>
+    </ul>
+
+    <div class="box box-tip">
+      <strong>ПРАВИЛО:</strong> Лучшие безопасные сыворотки содержат несколько пептидных комплексов одновременно, работающих по разным механизмам. The Ordinary использует 4 разных пептидных технологии в одном флаконе.
+    </div>
+  </div>
+
+  <!-- ════════════ 4. БРЕНДЫ С ПРОСТАГЛАНДИНАМИ ════════════ -->
+  <div id="s4" class="section-sep"></div>
+  <div class="section">
+    <span class="section-num">Раздел 4</span>
+    <h2>Бренды с простагландинами — список опасных</h2>
+
+    <div class="box box-danger">
+      Все перечисленные ниже бренды содержат простагландиновые аналоги (Isopropyl Cloprostenate или его аналоги). Они работают, но имеют эффект отмены и потенциальные риски.
+    </div>
+
+    <h3>4.1 Рынок США — содержат простагландины:</h3>
+    <ul>
+      <li><strong>GrandeLASH-MD</strong> — Isopropyl Cloprostenate (сами признают в составе)</li>
+      <li><strong>RapidLash Eyelash Enhancing Serum</strong> — Isopropyl Cloprostenate (FDA предупреждение)</li>
+      <li><strong>Rodan &amp; Fields Lash Boost</strong> — Isopropyl Cloprostenate</li>
+      <li><strong>RevitaLash Advanced</strong> — Dechloro Dihydroxy Difluoro Ethylcloprostenolamide</li>
+      <li><strong>NeuLash</strong> — Isopropyl Cloprostenate (FDA предупреждение)</li>
+      <li><strong>Babe Lash Essential Serum</strong> — Isopropyl Cloprostenate</li>
+      <li><strong>Borboleta Lash Serum</strong> — Isopropyl Cloprostenate</li>
+      <li><strong>Aphro Celina Eyelash Serum</strong> (основная линейка) — Isopropyl Cloprostenate</li>
+      <li><strong>Latisse</strong> (только по рецепту) — Bimatoprost, FDA-одобрен</li>
+    </ul>
+
+    <h3>4.2 Рынок Европы — содержат простагландины:</h3>
+    <ul>
+      <li><strong>Aphro Celina Corallion</strong> (Германия) — Isopropyl Cloprostenate</li>
+      <li><strong>UKLash Eyelash Serum</strong> (Великобритания) — Isopropyl Cloprostenate</li>
+      <li><strong>Xlash Pro</strong> — Isopropyl Cloprostenate</li>
+      <li><strong>Mavala Double Lash</strong> (проверяйте состав) — некоторые версии содержат</li>
+    </ul>
+
+    <div class="box box-warning">
+      <strong>В ЕС</strong> простагландиновые аналоги находятся в серой зоне: они не запрещены явно как косметические ингредиенты, но FDA (США) и ряд европейских регуляторов требуют предупреждений. Некоторые страны ограничивают их продажу.
+    </div>
+  </div>
+
+  <!-- ════════════ 5. БЕЗОПАСНЫЕ БРЕНДЫ ════════════ -->
+  <div id="s5" class="section-sep"></div>
+  <div class="section">
+    <span class="section-num">Раздел 5</span>
+    <h2>Безопасные бренды — рекомендации</h2>
+
+    <h3>5.1 США / Международный рынок — безопасные:</h3>
+    <ul>
+      <li><strong>The Ordinary Multi-Peptide Lash &amp; Brow Serum</strong> — лучшее соотношение цена/состав (~$15)</li>
+      <li><strong>LashesMD Eyelash Conditioner</strong> — профессиональная линия, без простагландинов</li>
+      <li><strong>ViveLab Revive Therapy</strong> — K-beauty, 10 запатентованных ингредиентов</li>
+      <li><strong>VEGAMOUR GRO Lash Serum</strong> — растительная веганская формула с Karmatin™, без простагландинов</li>
+      <li><strong>REVIVE7 Plus Lash Serum</strong> — канадская формула, 5 пептидов + EGF, клинически подтверждена</li>
+      <li><strong>Olaplex Lashbond</strong> — bond-building технология, восстановление структуры ресниц</li>
+      <li><strong>Pronexa Lavish Lash</strong> — пептидная формула для ресниц и бровей</li>
+      <li><strong>INKEY List Peptide Lash Serum</strong> — пептидная формула</li>
+      <li><strong>Peter Thomas Roth Lashes to Die For</strong> — безопасная формула</li>
+      <li><strong>Milk Makeup Kush Lash Serum</strong> — конопляное масло + пептиды</li>
+    </ul>
+
+    <h3>5.2 Азия / Japan & K-Beauty — безопасные:</h3>
+    <ul>
+      <li><strong>Scalp D Beauté Pure Free Premium (ANGFA)</strong> — лидер японского рынка, без простагландинов, без спирта, без красителей</li>
+      <li><strong>ViveLab Revive Therapy</strong> (#1 в Корее)</li>
+      <li><strong>SCOROLASH Lash Serum</strong> — популярная корейская альтернатива</li>
+      <li><strong>SOME BY MI Lash Serum</strong> — K-beauty пептидная формула</li>
+    </ul>
+
+    <h3>5.3 Россия / Европа — безопасные:</h3>
+    <ul>
+      <li><strong>The Ordinary Multi-Peptide Lash &amp; Brow</strong> — доступна в Goldapple</li>
+      <li><strong>Toplash</strong> — для стимуляции роста, укрепления, увеличения длины и густоты ресниц и бровей</li>
+      <li><strong>Lola's Lashes Lash Serum</strong> — европейская пептидная формула</li>
+      <li><strong>Terez &amp; Honor Lash Enhancing Serum</strong> — безопасный состав</li>
+      <li><strong>Hairenew</strong> (Россия) — отечественная формула с пептидами</li>
+      <li><strong>Велла / Wella Luxeoil</strong> — для питания и укрепления</li>
+    </ul>
+
+    <div class="box box-tip">
+      <strong>СОВЕТ ДЛЯ РОССИЙСКОГО РЫНКА:</strong> Если вы покупаете через маркетплейсы (Wildberries, Ozon), всегда смотрите полный INCI-состав. Ищите слово «prost» — если оно есть в названии любого ингредиента, это простагландин. Покупайте у проверенных продавцов — изучайте отзывы перед покупкой.
+    </div>
+  </div>
+
+  <!-- ════════════ 6. ИНСТРУКЦИЯ ════════════ -->
+  <div id="s6" class="section-sep"></div>
+  <div class="section">
+    <span class="section-num">Раздел 6</span>
+    <h2>Инструкция по применению сывороток</h2>
+
+    <img src="images/image10.jpg" alt="Инструкция по применению" style="width:140px;height:auto;display:block;border-radius:10px;margin:0 0 20px 0;">
+
+    <h3>6.1 Простагландиновые сыворотки (если вы всё-таки выбрали их)</h3>
+    <ul>
+      <li>Наносите 1 раз в день — вечером на чистую кожу</li>
+      <li>Только по линии роста верхних ресниц — тонкой линией, как подводка</li>
+      <li><strong>НЕ наносите на нижнее веко</strong> (жир вокруг глаз может атрофироваться)</li>
+      <li>Используйте минимальное количество — 1 погружение кисточки на оба глаза</li>
+      <li>Прекращайте при первых признаках раздражения или изменения пигментации</li>
+      <li>После достижения результата переходите на режим 2–3 раза в неделю</li>
+      <li>Не применяйте при беременности, кормлении, глаукоме, сухом глазе</li>
+    </ul>
+
+    <div class="box box-warning">
+      <strong>ВАЖНО ПРО ОТМЕНУ:</strong> Если вы уже используете простагландиновую сыворотку и хотите перейти на безопасную — не бросайте резко. Переходите постепенно: через день чередуйте с безопасной, затем переходите полностью.
+    </div>
+
+    <h3>6.2 Пептидные сыворотки (безопасные)</h3>
+    <ul>
+      <li>Наносите 1–2 раза в день (утро + вечер) для лучшего результата</li>
+      <li>По линии роста ресниц тонкой полосой</li>
+      <li>Можно наносить и на нижние ресницы</li>
+      <li>Первые результаты — через 4–6 недель</li>
+      <li>Для поддержания — продолжайте использование после достижения цели</li>
+      <li>Можно использовать под тушь</li>
+      <li>Подходят при ношении контактных линз</li>
+    </ul>
+    <p>Безопасные пептидные сыворотки наносят в течение 8–12 недель — это основной курс для заметного эффекта. После достижения результата переходят на режим поддержки 3–5 раз в неделю; такие сыворотки можно использовать длительно без риска эффекта отмены.</p>
+
+    <h3>6.3 Общие правила</h3>
+    <ul>
+      <li>Всегда наносить на чистую, сухую кожу — после умывания, до крема</li>
+      <li>Снять контактные линзы перед нанесением (установить обратно через 15 минут)</li>
+      <li>Дать высохнуть 2–3 минуты перед нанесением других продуктов</li>
+      <li>Не тереть глаза после нанесения</li>
+      <li>Хранить в прохладном месте, вдали от солнца</li>
+      <li>Срок использования после вскрытия — обычно 6–12 месяцев</li>
+    </ul>
+  </div>
+
+  <!-- СХЕМА ВЫХОДА -->
+  <div class="section-sep"></div>
+  <div class="section">
+    <h3>Схема выхода с простагландиновых сывороток</h3>
+    <p style="margin-bottom:16px;">Схема выхода с GrandeLASH, RevitaLash, RapidLash и др. — чтобы минимизировать откат и массовое выпадение.</p>
+
+    <div class="scheme">
+
+      <div class="scheme-stage step-1">
+        <div class="scheme-step-col">
+          <div class="scheme-step-circle">1</div>
+        </div>
+        <div class="scheme-stage-body">
+          <div class="scheme-stage-num">Этап 1 · 2 недели</div>
+          <div class="scheme-stage-title">Снижение частоты</div>
+          <p style="font-size:13px;color:#7A5030;margin-bottom:8px;font-style:italic;">Цель: не допустить синхронного перехода ресниц в фазу выпадения.</p>
+          <ul>
+            <li>Простагландиновая сыворотка — 3 раза в неделю (через день)</li>
+            <li>Пептидная сыворотка (Toplash / ViveLab / The Ordinary / REVIVE7 Plus) — ежедневно</li>
+            <li>Дополнительно: лёгкое масло (касторовое или аргановое) 2–3 раза в неделю вечером</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="scheme-stage step-2">
+        <div class="scheme-step-col">
+          <div class="scheme-step-circle">2</div>
+        </div>
+        <div class="scheme-stage-body">
+          <div class="scheme-stage-num">Этап 2 · 2 недели</div>
+          <div class="scheme-stage-title">Мягкое сокращение</div>
+          <ul>
+            <li>Простагландиновая сыворотка — 1–2 раза в неделю</li>
+            <li>Пептидная сыворотка — ежедневно</li>
+            <li>Поддержка: омега-3 и достаточный белок в рационе</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="scheme-stage step-3">
+        <div class="scheme-step-col">
+          <div class="scheme-step-circle">3</div>
+        </div>
+        <div class="scheme-stage-body">
+          <div class="scheme-stage-num">Этап 3 · с 5-й недели</div>
+          <div class="scheme-stage-title">Полная отмена</div>
+          <ul>
+            <li>Простагландин полностью убрать</li>
+            <li>Пептидную сыворотку продолжать ежедневно минимум 8–12 недель</li>
+            <li>Масло можно оставить 2 раза в неделю как питание</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="scheme-stage step-4">
+        <div class="scheme-step-col">
+          <div class="scheme-step-circle">4</div>
+        </div>
+        <div class="scheme-stage-body">
+          <div class="scheme-stage-num">Этап 4 · 2–3 месяц</div>
+          <div class="scheme-stage-title">Стабилизация</div>
+          <ul>
+            <li>Пептидная сыворотка — 5 раз в неделю</li>
+            <li>Далее — режим поддержки 3–4 раза в неделю</li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+
+    <h4>Что важно понимать</h4>
+    <ul>
+      <li>Небольшой откат длины (20–30%) — нормален</li>
+      <li>Массовое выпадение чаще происходит при резкой отмене</li>
+      <li>Новый естественный цикл стабилизируется через 6–8 недель</li>
+      <li>Полное восстановление натурального цикла — до 3 месяцев</li>
+    </ul>
+
+    <h4>Чего нельзя делать</h4>
+    <ul>
+      <li>Резко прекращать в один день</li>
+      <li>Чередовать разные простагландиновые формулы</li>
+      <li>Наносить на воспалённое веко</li>
+      <li>Использовать вместе с ретиноидами по линии роста</li>
+    </ul>
+
+    <!-- ВОССТАНОВЛЕНИЕ КОЖИ ПОСЛЕ ПОБОЧНЫХ ЭФФЕКТОВ -->
+    <h3>Крема и сыворотки для устранения побочных эффектов</h3>
+    <p style="margin-bottom:16px;">После длительного применения простагландиновых сывороток могут возникнуть два наиболее частых побочных эффекта — гиперпигментация кожи вокруг глаз (потемнение) и потеря орбитального жира (эффект «запавших» или «ввалившихся» глаз). Для устранения каждого из этих эффектов существуют специфические продукты.</p>
+
+    <!-- Paula's Choice C5 -->
+    <div class="product-card" style="margin-bottom:20px;">
+      <img class="img-product" src="images/IMG_3670.jpg" alt="Paula's Choice C5 Super Boost Eye Cream" style="margin:20px auto 0;">
+      <div class="product-card-inner">
+        <div class="box box-info" style="margin-top:0;">
+          <strong>Paula's Choice C5 Super Boost Eye Cream</strong><br>
+          Крем для глаз с 5% витамином С + гиалуроновой кислотой + полипептидами.<br>
+          <strong>Показание:</strong> гиперпигментация, потемнение кожи вокруг глаз после простагландинов.
+        </div>
+        <div class="ingredient-row"><span class="ingredient-label">Ключевые активы:</span><span class="ingredient-value">5% Vitamin C (L-Ascorbic Acid) — тормозит выработку меланина, осветляет пигментные пятна и неравномерный тон. Hyaluronic Acid — глубокое восстанавливающее увлажнение. Polypeptides — упругость и тонус кожи вокруг глаз.</span></div>
+        <div class="ingredient-row"><span class="ingredient-label">Как наносить:</span><span class="ingredient-value">Утром — нанесите небольшое количество на область под глазами и верхнее веко (не по линии роста ресниц) лёгкими промокательными движениями кончиком безымянного пальца. Дайте впитаться 1–2 минуты, затем нанесите SPF — витамин С без защиты от УФ не даст эффекта по пигментации.</span></div>
+        <div class="ingredient-row"><span class="ingredient-label">Режим применения:</span><span class="ingredient-value">Ежедневно утром. В вечернее время можно заменить на увлажняющий крем для кожи вокруг глаз без активных кислот.</span></div>
+        <div class="ingredient-row"><span class="ingredient-label">Длительность курса:</span><span class="ingredient-value">Первые заметные результаты осветления — через 8–12 недель регулярного применения. Поддерживающий режим до полного выравнивания тона — 3–6 месяцев. Не прерывайте резко: витамин С даёт накопительный эффект.</span></div>
+        <div class="ingredient-row"><span class="ingredient-label">Важно:</span><span class="ingredient-value">Хранить в тёмном прохладном месте — витамин С окисляется на свету и в тепле. Если крем заметно пожелтел или потемнел — заменить. Не допускать попадания в глаза. На чувствительной коже возможно лёгкое покалывание — это норма.</span></div>
+      </div>
+    </div>
+
+    <!-- Volufiline -->
+    <div class="product-card">
+      <img class="img-product" src="images/IMG_3671.jpg" alt="Volufiline 100% France Sederma" style="margin:20px auto 0;">
+      <div class="product-card-inner">
+        <div class="box box-info" style="margin-top:0;">
+          <strong>Volufiline 100% (France Sederma / Cosmetic Boosters)</strong><br>
+          Концентрированный активный ингредиент на основе сарсасапогенина, 30 мл.<br>
+          <strong>Показание:</strong> потеря орбитального жира, эффект «запавших» или «ввалившихся» глаз после длительного применения простагландинов.
+        </div>
+        <div class="ingredient-row"><span class="ingredient-label">Механизм действия:</span><span class="ingredient-value">Sarsasapogenin (из Anemarrhena asphodeloides) стимулирует адипогенез — процесс образования и увеличения объёма жировых клеток (адипоцитов). Позволяет постепенно восполнить орбитальный жир, утраченный вследствие воздействия простагландинов на жировую ткань вокруг глазницы.</span></div>
+        <div class="ingredient-row"><span class="ingredient-label">Как применять:</span><span class="ingredient-value">Volufiline — концентрированный бустер, а не готовый крем. Добавьте 2–5 капель в вашу порцию ежедневного крема для глаз или лёгкого увлажняющего крема и смешайте на ладони. Нанесите смесь на орбитальную область — по костному краю под глазом и на висок — лёгкими промокательными движениями. Не наносить непосредственно на слизистую глаза.</span></div>
+        <div class="ingredient-row"><span class="ingredient-label">Режим применения:</span><span class="ingredient-value">Утром и вечером — добавлять в базовый крем для глаз. Начните с 2 капель на одну порцию крема, при хорошей переносимости можно увеличить до 4–5 капель.</span></div>
+        <div class="ingredient-row"><span class="ingredient-label">Длительность курса:</span><span class="ingredient-value">Первые изменения (лёгкий «наполненный» вид орбитальной зоны) — через 6–8 недель. Выраженный результат — через 3–6 месяцев непрерывного применения. Это медленный, но физиологичный процесс: жировая ткань восстанавливается постепенно. Использовать непрерывно до достижения желаемого результата.</span></div>
+        <div class="ingredient-row"><span class="ingredient-label">Важно:</span><span class="ingredient-value">Volufiline не заменяет пептидную сыворотку для ресниц — применяйте параллельно. Продукт безопасен при длительном применении. Флакон 30 мл при режиме 2–4 капли в день хватает приблизительно на 3–4 месяца.</span></div>
+      </div>
+    </div>
+
+    <div class="box box-tip" style="margin-top:20px;">
+      <strong>Комплексный протокол восстановления после простагландинов:</strong><br><br>
+      <strong>Утро:</strong> пептидная сыворотка для ресниц (по линии роста) → Paula's Choice C5 Eye Cream (вокруг глаз) → SPF на всё лицо.<br><br>
+      <strong>Вечер:</strong> пептидная сыворотка для ресниц (по линии роста) → увлажняющий крем для глаз с 2–5 каплями Volufiline (вокруг глаз).<br><br>
+      Минимальный курс — 3 месяца. Полное восстановление орбитальной зоны и выравнивание пигментации — до 6 месяцев.
+    </div>
+
+    <div class="box box-tip" style="margin-top:12px;">
+      <strong>Рекомендация.</strong> Проверьте сыворотку через ChatGPT или иной ИИ. Сфотографируйте полный состав (INCI) на упаковке или коробке и проанализируйте состав. Важно, чтобы был виден весь список ингредиентов.
+    </div>
+  </div>
+
+  <!-- FOOTER IMAGES -->
+  <div class="img-footer">
+    <img src="images/image3.jpg" alt="">
+    <img src="images/image1.jpg" alt="">
+  </div>
+
+  <!-- FOOTER -->
+  <div class="footer">
+    Составлено на основе официальных составов INCI, данных FDA, INCIDecoder и дерматологических источников
+  </div>
+
+  <!-- AUTHOR -->
+  <div class="footer" style="padding-top:8px;">
+    автор Наталья Туманова тг @natalia_kozyon
+  </div>
+
+</div>
+</body>
+</html>
